@@ -1,0 +1,18 @@
+{
+  "clientes": [
+    {
+      "name": "Fagner Altino Alves",
+      "cpf": "116.095.426-73",
+      "cemig": "1234560000",
+      "cons_medio": "600",
+      "id": 6
+    },
+    {
+      "name": "Gabriel Altino Alves",
+      "cpf": "945.601.886-53",
+      "cemig": "1234567890",
+      "cons_medio": "780",
+      "id": 7
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+<mat-card>
+    <mat-card-title>Confirmar Exclusão</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder = "Nome" [value] = "cliente.name" name = "name" disabled>
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder = "CPF" [value] = "cliente.cpf" name = "cpf" disabled>
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder = "Cadastro Cemig" [value] = "cliente.cemig" name = "cemig" disabled>
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder = "Consumo Médio" [value] = "cliente.cons_medio" name = "cons_medio" disabled>
+        </mat-form-field>
+    </form> 
+
+<button mat-raised-button (click) = "deleteCliente()" color = "warn">
+    Deletar Permanentemente
+</button>
+<button mat-raised-button (click) = "cancelCliente()">
+    Cancelar
+</button>
+
+</mat-card>
